@@ -11,8 +11,8 @@ def main():
         notification = Notify()
         notification.title = "Timer"
         notification.message = "Time up"
-        notification.icon = "D:\Programming\Python\practise\clock.png"
-        notification.audio = "D:\Programming\Python\practise\\alarm.wav"
+        notification.icon = "D:\Programming\Python\timer\clock.png"
+        notification.audio = "D:\Programming\Python\timer\\alarm.wav"
         notification.application_name = "Hello"
         notification.send()
     else:
